@@ -46,5 +46,3 @@ if x1=='r' and (x2== 'a' or 'e' or 'i'):
   for final in prombres:
       print(final, sinterminacion+prombres[final][terminacion])
   
-
-#-----------------------------------
