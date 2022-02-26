@@ -10,11 +10,15 @@ def inicio():
 @app.get("/contactos")
 def listaContactos():
     return render_template("contactos.html")
-    
+
 #@app.get("/contactos/<contactoId>")#quiere decir que es una ruta dinamica
 #@app.get("/contactos/contactoId")#quiere decir toca buscarla por esta ruta
 @app.get("/contactos/<int:contactoId>")#quiere decir que es una ruta dinamica de enteros nada mas
 def EditarContacto(contactoId):
     return render_template("editarContactos.html", id = contactoId)
+
+@app.get("/edad/<int:edadId>")
+def Edades(edadId):
+    return render_template("edades.html", Eid=edadId)
 
 app.run(debug=True)
