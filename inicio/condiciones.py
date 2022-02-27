@@ -1,5 +1,8 @@
 # Condiciones
 
+from subprocess import HIGH_PRIORITY_CLASS
+
+
 esMayorEdad = True
 
 if esMayorEdad == True: # if not esMayorEdad  and or
@@ -40,6 +43,7 @@ prombres={
     }
 }
 
+ver="holas"
 verbo= input()
 
 x1=verbo[len(verbo)-1]
