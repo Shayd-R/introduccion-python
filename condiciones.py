@@ -32,6 +32,11 @@ prombres={
         'ar': 'a',
         'er': 'e',
         'ir': 'e'
+    },
+    'nosotros':{
+        'ar': 'amos',
+        'er': 'emos',
+        'ir': 'imos'
     }
 }
 
