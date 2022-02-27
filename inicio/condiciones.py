@@ -1,8 +1,5 @@
 # Condiciones
 
-from subprocess import HIGH_PRIORITY_CLASS
-
-
 esMayorEdad = True
 
 if esMayorEdad == True: # if not esMayorEdad  and or
